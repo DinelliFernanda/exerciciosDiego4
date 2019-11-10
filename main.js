@@ -8,9 +8,14 @@ function cadeia(){
         busca = prompt("Digite o caractere a ser procurado: ") 
         str.indexOf(busca);
 
-        if (str.indexOf(busca) == false){
+        if (str.indexOf(busca) == true){
+            return str[busca];
+        }
+
+        else if (str.indexOf(busca) == false){
             alert("O caractere não pertence à cadeia informada!");
         }
+        
         else{
 
             if (vet == '') or (vet > 20);{
@@ -23,7 +28,4 @@ function cadeia(){
         }
         
     }
-
-
-
 }
